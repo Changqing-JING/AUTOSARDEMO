@@ -17,5 +17,5 @@ Std_ReturnType Adc_ReadGroup(Adc_GroupType Group,
     *DataBufferPtr = ADCValue;
   }
 
-  return ADCValue;
+  return E_OK;
 }
